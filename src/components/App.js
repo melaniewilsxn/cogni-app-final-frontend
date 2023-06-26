@@ -7,6 +7,7 @@ import Home from "./Home"
 import About from  "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import TutorList from "./TutorList"
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/tutors">
+          <TutorList />
         </Route>
         <Route exact path="/contact">
           <Contact />
