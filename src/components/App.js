@@ -6,6 +6,7 @@ import NavBar from "./NavBar"
 import Home from "./Home"
 import About from  "./About"
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }

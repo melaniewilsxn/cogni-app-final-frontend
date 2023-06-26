@@ -4,9 +4,9 @@ import { Container, Header, Divider } from 'semantic-ui-react'
 function Contact(){
     return(
         <Container textAlign="left">
-            <Header as='h2'>Contact Us</Header>
+            <Header as='h2'>We are thrilled to hear from you!</Header>
             <Divider />
-            <h3>We are thrilled to hear from you! Whether you have questions, want to learn more about our tutoring services, or are ready to get started, our team is here to assist you. Feel free to reach out to us through any of the following channels!</h3>
+            <h3>Whether you have questions, want to learn more about our tutoring services, or are ready to get started, our team is here to assist you. Feel free to reach out to us through any of the following channels.</h3>
             <h3>Office Hours:</h3>
             <p>Monday-Friday: 9:00 AM - 6:00 PM<br></br>
             Saturday: 10:00 AM - 4:00 PM
