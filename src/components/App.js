@@ -4,6 +4,7 @@ import '../App.css';
 import Header from "./Header"
 import NavBar from "./NavBar"
 import Home from "./Home"
+import About from  "./About"
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/about">
+          <About />
         </Route>
       </Switch>
     </div>
