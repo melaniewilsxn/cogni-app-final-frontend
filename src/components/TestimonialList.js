@@ -1,10 +1,11 @@
 import React, { useState, useEffect} from 'react'
-import { Container, Divider, Segment } from 'semantic-ui-react'
+import { Container, Divider, Segment, Button } from 'semantic-ui-react'
 import TestimonialCard from "./TestimonialCard"
 
 function TestimonialList(){
 
     const [testimonialList, setTestimonialList] = useState([])
+    const [clicked, setClicked] = useState(false)
 
     useEffect(() => {
         fetch("http://localhost:3001/testimonials")
@@ -15,11 +16,17 @@ function TestimonialList(){
     const displayTestimonials = testimonialList.map((testimonial) => {
         return <TestimonialCard testimonial={testimonial} key={testimonial.id}/>
     })
+
+    function handleClick(){
+        setClicked(!clicked)
+    }
     
     return(
         <Container>
             <h1>Testimonials</h1>
             <Divider />
+            {clicked ? <h1>form!</h1> : null}
+            <Button color='yellow' onClick={handleClick}>Add a Testimonial</Button>
             <Segment textAlign="left">
                 {displayTestimonials}
             </Segment>
