@@ -13,11 +13,13 @@ function TutorCard({tutor}){
         <Card>
             <Image src={tutor.image} wrapped ui={false} />
             <Card.Content>
-                <Card.Header>{tutor.name}</Card.Header>
+                <Card.Header>{tutor.first_name} {tutor.last_name}</Card.Header>
                 <Card.Meta>{tutor.subject}</Card.Meta>
                 {tutorClicked ? 
                 <Card.Description>
-                    Daniel is a comedian living in Nashville.
+                    Grade tutored: {tutor.grade} <br></br>
+                    Email: {tutor.email} <br></br>
+                    Fun fact: {tutor.fun_fact}
                 </Card.Description>
                 : null}
             </Card.Content>
@@ -27,10 +29,3 @@ function TutorCard({tutor}){
 }
 
 export default TutorCard;
-
-{/* <Card>
-<img className= "image" src={tutor.image} alt={tutor.name}/>
-<div className="content">
-    <h2>{tutor.name}</h2>
-</div>
-</Card> */}
