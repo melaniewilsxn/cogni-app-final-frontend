@@ -27,7 +27,7 @@ function TestimonialList(){
             <h1>Testimonials</h1>
             <Divider />
             {clicked ? <TestimonialForm/> : null}
-            <Button color='yellow' onClick={handleClick}>Add a Testimonial</Button>
+            {clicked ? <Button color='yellow' onClick={handleClick}>Hide Testimonial Form</Button> : <Button color='yellow' onClick={handleClick}>Add Testimonial</Button>}
             <Segment textAlign="left">
                 {displayTestimonials}
             </Segment>
