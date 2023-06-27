@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import { Container, Divider, Segment, Button } from 'semantic-ui-react'
 import TestimonialCard from "./TestimonialCard"
+import TestimonialForm from './TestimonialForm'
 
 function TestimonialList(){
 
@@ -25,7 +26,7 @@ function TestimonialList(){
         <Container>
             <h1>Testimonials</h1>
             <Divider />
-            {clicked ? <h1>form!</h1> : null}
+            {clicked ? <TestimonialForm/> : null}
             <Button color='yellow' onClick={handleClick}>Add a Testimonial</Button>
             <Segment textAlign="left">
                 {displayTestimonials}
