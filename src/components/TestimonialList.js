@@ -21,12 +21,16 @@ function TestimonialList(){
     function handleClick(){
         setClicked(!clicked)
     }
+
+    function handleNewTestimonial(newTestimonial){
+        setTestimonialList([...testimonialList, newTestimonial])
+    }
     
     return(
         <Container>
             <h1>Testimonials</h1>
             <Divider />
-            {clicked ? <TestimonialForm/> : null}
+            {clicked ? <TestimonialForm onAddNewTestimonial={handleNewTestimonial}/> : null}
             {clicked ? <Button color='yellow' onClick={handleClick}>Hide Testimonial Form</Button> : <Button color='yellow' onClick={handleClick}>Add Testimonial</Button>}
             <Segment textAlign="left">
                 {displayTestimonials}

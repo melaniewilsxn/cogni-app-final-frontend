@@ -5,8 +5,8 @@ function TestimonialCard({testimonial}){
 
     return(
         <div>
-            <Header as='h3'>{testimonial.first_name} {testimonial.last_initial}</Header>
-            <p>{testimonial.testimonial}</p>
+            <Header as='h3'>Testimonial from {testimonial.first_name} {testimonial.last_initial}:</Header>
+            <p>"{testimonial.testimonial}"</p>
             
             <Divider section />
         </div>
