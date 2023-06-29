@@ -6,7 +6,7 @@ Welcome to Cogni! Cogni is a single-page application using creat-react-app and i
 
 Features include: 
 - User-friendly Navigation: Users can easily navigate through the different pages of the Cogni App, including Home, About, Tutors, Contact, and Testimonials, to explore the various aspects of the platform.
-- Tutor Exploration and Filtering: Users can browse and explore the available tutors in the Meet Our Tutors section. The app allows users to filter tutors based on the grade level they tutor (elementary, middle school, high school) and the subjects they specialize in, ensuring a personalized tutoring experience.
+- Tutor Exploration and Filtering: Users can browse and explore the available tutors in the Meet Our Tutors section. The app allows users to filter tutors based on the subjects they specialize in, ensuring a personalized tutoring experience.
 - Testimonial Submission: Cogni App empowers users to share their own testimonials about their experience with the tutors and the platform. Users can submit their testimonials through a simple and intuitive interface, contributing to the community's feedback and helping others make informed decisions.
 - Dynamic Tutor Profiles: Each tutor has a detailed profile that showcases their expertise, and personality. Users can view these profiles to gain insights into the tutors before making their selection.
 - Contact and Inquiry: The Contact page provides users with a convenient way to get in touch with the Cogni team. Users can reach out for inquiries, support, or any other questions they may have. The contact form ensures a smooth and efficient communication channel.

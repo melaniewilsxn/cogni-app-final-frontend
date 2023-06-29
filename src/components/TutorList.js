@@ -14,9 +14,8 @@ function TutorList(){
         .then(data => setTutorList(data))
     }, [])
 
-    const displayTutors = tutorList.map((tutor) => {
-        return <TutorCard tutor={tutor} key={tutor.id}/>
-    })
+    const displayTutors = tutorList.filter((tutor) => tutor.category.includes(filter))
+    
     
     return(
         <div>
@@ -28,7 +27,7 @@ function TutorList(){
             <Divider />
             <Filter filter={filter} setFilter={setFilter}/>
             <Card.Group centered>
-                {displayTutors}
+                {displayTutors.map((tutor) => (<TutorCard tutor={tutor} key={tutor.id}/>))}
             </Card.Group>
         </div>
     )
