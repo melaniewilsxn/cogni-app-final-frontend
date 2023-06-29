@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Cogni App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripition
 
-## Available Scripts
+Welcome to Cogni! Cogni is a single-page application using creat-react-app and incorporates client-side routing. The Cogni application allows users to explore Cogni, a tutoring company, and experience personalized tutoring services to students, helping them achieve academic excellence.
 
-In the project directory, you can run:
+Features include: 
+- User-friendly Navigation: Users can easily navigate through the different pages of the Cogni App, including Home, About, Tutors, Contact, and Testimonials, to explore the various aspects of the platform.
+- Tutor Exploration and Filtering: Users can browse and explore the available tutors in the Meet Our Tutors section. The app allows users to filter tutors based on the grade level they tutor (elementary, middle school, high school) and the subjects they specialize in, ensuring a personalized tutoring experience.
+- Testimonial Submission: Cogni App empowers users to share their own testimonials about their experience with the tutors and the platform. Users can submit their testimonials through a simple and intuitive interface, contributing to the community's feedback and helping others make informed decisions.
+- Dynamic Tutor Profiles: Each tutor has a detailed profile that showcases their expertise, and personality. Users can view these profiles to gain insights into the tutors before making their selection.
+- Contact and Inquiry: The Contact page provides users with a convenient way to get in touch with the Cogni team. Users can reach out for inquiries, support, or any other questions they may have. The contact form ensures a smooth and efficient communication channel.
+- Responsive and Engaging Interface: Cogni App offers a responsive and visually appealing interface that enhances the user experience. The platform aims to provide an engaging and enjoyable learning environment to students, making their tutoring journey seamless and productive.
 
-### `npm start`
+These features enable users to explore the different pages, filter and select tutors based on their preferences, contribute their own testimonials, and easily communicate with the Cogni team. Cogni App strives to provide a comprehensive and user-centric tutoring platform that caters to the unique needs of every student.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. To run this application you first need to fork and clone the back end repository: 
 
-### `npm test`
+`$ git clone https://github.com/melaniewilsxn/cogni-app-backend`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Ensure you have json-server installed globally. If you don't, you can install it by running:
 
-### `npm run build`
+`$ npm install -g json-server`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. To start the server, navigate to your terminal and run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`$ npm run dev`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Fork and clone the front end repository:
 
-### `npm run eject`
+`$ git clone https://github.com/melaniewilsxn/cogni-app-final-frontend`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Install the dependencies by running:
+ 
+`$ npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Start the applllication by running:
+`$ npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React: JavaScript library for building user interfaces
+- Node.js: JavaScript runtime environment
+- React Router: Library for routing in React applications
+- Semantic-UI: UI component library
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to submit a pull request or open an issue in the repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to modify and distribute this software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+If you have any questions, feedback, or inquiries, please reach out to me at melaniemwilson1@gmail.com. I would love to hear from you!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was completed independently by me, Melanie Wilson. You can find my github profile at https://github.com/melaniewilsxn and my Linkedin profile at https://www.linkedin.com/in/melanie-marie-wilson/. The logos on both the header and favicon were created using https://looka.com/. All images were taken from https://unsplash.com/images/stock.
