@@ -1,5 +1,5 @@
 import React from "react"
-import { Image, Slider } from 'semantic-ui-react'
+import { Image, Divider } from 'semantic-ui-react'
 
 function Home(){
 
@@ -13,6 +13,7 @@ function Home(){
     return(
         <div>
             <h1>Unlocking Academic Success Through Personalized Tutoring.</h1>
+            <Divider />
             <Image src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1722&q=80" alt="homepage-image" size="huge" bordered centered/>
         </div>
     )
