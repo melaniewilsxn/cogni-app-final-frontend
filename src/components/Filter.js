@@ -5,6 +5,7 @@ function Filter({ filter, setFilter}){
 
     const filterStyle = {
         margin: '0px 0px 15px 0px',
+        textAlign: 'center'
     };
 
     const options = [
